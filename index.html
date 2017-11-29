@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <script src="js/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+        if (sr.isSupported()) {
+            document.documentElement.classList.add('sr');
+        }
+    </script>
+    <title>Tomasz Kondraciuk - Front-End Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tomasz Kondraciuk - Front-End Web Developer">
+    <meta name="keywords" content="front-end, Tomasz Kondraciuk, portfolio, kontakt, web">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta property="og:url" content="http://tomaszkondraciuk.pl">
+    <meta property="og:title" content="Tomasz Kondraciuk - Front-End Web Developer">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Projektowanie i tworzenie stron internetowych">
+    <meta property="og:image" content="http://tomaszkondraciuk.pl/gfx/screen1.jpg">
+    <link href='https://fonts.googleapis.com/css?family=Hammersmith+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .sr .dev-title,
+        .sr .author,
+        .sr .page-header,
+        .sr #title-page .scroll,
+        .sr .about-me-icon,
+        .sr .about-me-description,
+        .sr .skills-intro,
+        .sr .skills-list,
+        .sr .portfolio-project a,
+        .sr #page-footer a,
+        .sr .footer-logo,
+        .sr .copyright {
+            visibility: hidden;
+        }
+    </style>
+
+</head>
+
+<body id="top-of-body">
+    <header class="page-header">
+        <a href="#top-of-body">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 41" preserveAspectRatio="xMidYMid meet" class="page-logo">
+                <g transform="translate(0.000000,41.000000) scale(0.100000,-0.100000)" stroke="none">
+                    <path d="M876 385c-24-24-32-44-47-108-9-43-18-61-33-67-30-11-54-41-69-86-8-23-22-40-32-43-16-3-18 3-12 63 5 55 4 68-9 73-18 7-37-10-58-52l-16-30 0 43c0 36-3 43-17 40-10-2-19-13-21-25l-3-22-37 26c-29 19-45 24-76 20-60-8-81-36-81-107 1-61-9-76-40-63-13 4-75 110-75 127 0 2 17 7 38 11 54 10 80 30 93 73 16 54 9 86-18 90-20 3-23-1-23-33 0-50-44-95-93-95l-34 0 5 75 5 75-39 0c-45 0-111-28-136-57-10-11-21-34-24-52-7-31-6-32 22-29 22 2 30 10 36 35 9 33 50 73 75 73 17 0 14-43-9-145-20-90-44-123-101-134-47-10-42-35 8-39 57-4 96 24 127 89l25 54 36-71c19-38 42-76 51-83 19-16 62-11 131 16 61 23 89 67 79 123l-6 35 26-24c19-18 26-35 28-75 4-67 24-67 60-1l28 50 0-40c1-61 11-72 54-57 28 10 39 10 56 0 17-11 25-10 52 5 28 16 32 16 48 2 21-19 40-19 68 1 22 15 24 15 37-2 18-25 30-12 53 56l19 54 11-32c8-24 17-32 34-32 14 0 27-9 33-22 17-37 40-44 79-26 29 14 35 15 40 2 7-18 36-18 62 0 17 12 22 12 39 0 25-19 54-18 90 4 29 18 30 18 46-2 15-18 20-19 55-8 25 7 40 8 42 2 6-16 38-11 63 9 22 18 23 18 38-1 14-17 20-17 50-7 27 9 36 9 39 1 8-26 32-9 71 54 23 37 44 64 48 61 3-3-4-18-16-33-30-39-28-82 5-90 34-9 94 19 94 44 0 30-12 34-37 10-39-36-46-9-12 44 54 83 10 122-57 51l-35-38 25 45c60 112 70 210 21 210-51 0-90-79-102-205-8-88-16-111-43-118-21-5-21-4-15 69 7 70 6 74-13 74-15 0-22-9-27-32-17-83-26-108-42-108-13 0-14 9-8 57 4 31 9 62 12 70 3 8-2 13-15 13-26 0-30-6-42-71-11-57-24-79-48-79-12 0-14 10-9 53 4 28 9 63 13 75 6 21 4 23-17 20-20-2-26-12-34-52-12-54-51-96-90-96-31 0-42 38-25 80 15 37 40 40 40 5 0-27 9-32 28-13 18 18 14 56-7 68-51 27-104-10-118-83-6-29-14-43-27-45-17-4-18 1-11 57 7 60 7 61-21 72-38 14-87-9-109-51-23-45-50-37-50 14 0 50-21 58-52 20l-23-29 0 28c0 50-28 31-41-29-8-34-20-61-33-70-54-37-61 4-17 104 35 80 44 127 33 167-10 35-41 44-66 20zm19-135c-9-28-19-50-22-50-10 0 6 120 19 143 13 21 13 21 16-11 2-18-4-55-13-82zm955 102c0-4-13-46-30-92l-30-85 6 55c7 60 31 130 45 130 5 0 9-4 9-8zm-1382-203c4-38-14-79-37-79-23 0-33 23-25 58 14 56 56 71 62 21zm352-8c0-23-7-46-16-55-33-33-46 12-19 64 21 41 35 37 35-9zm390 19c0-34-28-90-44-90-22 0-20 38 4 78 22 36 40 42 40 12zM1494 296c-9-23 3-46 23-46 28 0 45 16 41 36-4 25-56 32-64 10z" />
+                </g>
+            </svg>
+        </a>
+        <nav class="page-nav" id="navigation">
+            <ul>
+                <li><a href="#about-me">O MNIE</a></li>
+                <li><a href="#skills">UMIEJĘTNOŚCI</a></li>
+                <li><a href="#portfolio">PROJEKTY</a></li>
+                <li><a href="#contact">KONTAKT</a></li>
+            </ul>
+            <button class="hamburger" aria-label="navigation menu">
+                <svg enable-background="new 0 0 18.223 20.5" height="30" version="1.1" viewBox="0 0 18.223 20.5" width="30" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" class="hamburger-icon">
+                    <path d="M1.402 5.081h15.419c0.771 0 1.402-0.63 1.402-1.401h-0.001V1.402C18.222 0.631 17.591 0 16.82 0H1.402C0.631 0 0 0.631 0 1.402V3.68C0 4.451 0.631 5.081 1.402 5.081zM18.222 16.82c0-0.771-0.631-1.401-1.402-1.401H1.402C0.631 15.419 0 16.049 0 16.82v2.277C0 19.869 0.631 20.5 1.402 20.5h15.419c0.771 0 1.402-0.631 1.402-1.402h-0.001V16.82zM18.222 9.111c0-0.771-0.631-1.402-1.402-1.402H1.402C0.631 7.709 0 8.34 0 9.111v2.278c0 0.771 0.631 1.402 1.401 1.402h15.419c0.771 0 1.402-0.631 1.402-1.402h-0.001V9.111z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="30" height="30" viewBox="0 0 512 511.965" enable-background="new 0 0 512 511.965" xml:space="preserve" class="close-icon">
+                    <path d="M507.77 392.015L371.71 255.973 507.728 119.94c5.639-5.639 5.639-14.771 0-20.405L412.444 4.227c-5.639-5.636-14.777-5.636-20.417 0L255.989 140.259 119.972 4.227c-5.412-5.419-14.994-5.419-20.413 0L4.25 99.521c-2.706 2.706-4.229 6.383-4.229 10.205 0 3.825 1.523 7.502 4.229 10.208l136.039 136.039L4.229 392.028C1.523 394.735 0 398.404 0 402.23c0 3.825 1.523 7.509 4.229 10.201l95.293 95.311c2.707 2.707 6.391 4.223 10.227 4.223 3.812 0 7.48-1.516 10.188-4.223l136.053-136.06 136.06 136.046c2.826 2.819 6.496 4.236 10.208 4.236 3.705 0 7.396-1.417 10.216-4.236l95.305-95.297C513.409 406.792 513.409 397.668 507.77 392.015z" />
+                </svg>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <div id="title-page">
+            <div class="full-title-author">
+                <h1 class="dev-title">FRONT-END DEVELOPER</h1>
+                <h2 class="author">Tomasz Kondraciuk</h2>
+            </div>
+            <div class="scroll">
+                <a href="#about-me">
+                    <svg class="scroll-button" xmlns="http://www.w3.org/2000/svg" height="512" version="1.1" viewBox="0 0 512 512" width="512" xml:space="preserve">
+                        <path d="M98.9 184.7l1.8 2.1 136 156.5c4.6 5.3 11.5 8.6 19.2 8.6 7.7 0 14.6-3.4 19.2-8.6L411 187.1l2.3-2.6c1.7-2.5 2.7-5.5 2.7-8.7 0-8.7-7.4-15.8-16.6-15.8v0H112.6v0c-9.2 0-16.6 7.1-16.6 15.8C96 179.1 97.1 182.2 98.9 184.7z" fill="white" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div id="about-me">
+            <h1 class="about-me-header">O MNIE</h1>
+            <div class="about-me-bar"></div>
+            <div class="about-me-icon">
+                <svg id="about-me-icon-size" enable-background="new -27 23 101 100" version="1.1" viewBox="-27 23 101 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <circle cx="23" cy="73" fill="#F5EEE5" r="50" />
+                    <defs>
+                        <circle cx="23" cy="73" id="SVGID_1_" r="50" />
+                    </defs>
+                    <clipPath id="SVGID_2_">
+                        <use overflow="visible" xlink:href="#SVGID_1_" />
+                    </clipPath>
+                    <path clip-path="url(#SVGID_2_)" d="M38 98.9l27.9 7.7c3.2 1.1 5.7 3.5 7.1 6.6v9.8H-27v-9.8c1.3-3.1 3.9-5.5 7.1-6.6L8 98.9V84h30V98.9z" fill="#D4B08C" />
+                    <g clip-path="url(#SVGID_2_)">
+                        <defs>
+                            <path d="M38 98.9l27.9 7.7c3.2 1.1 5.7 3.5 7.1 6.6v9.8H-27v-9.8c1.3-3.1 3.9-5.5 7.1-6.6L8 98.9V84h30V98.9z" id="SVGID_3_" />
+                        </defs>
+                        <clipPath id="SVGID_4_">
+                            <use overflow="visible" xlink:href="#SVGID_3_" />
+                        </clipPath>
+                        <polygon clip-path="url(#SVGID_4_)" fill="#1E1E23" points="23.2 103 16 103 11.2 98 -27 98 -27 123 23.2 123 73.3 123 73.3 98 35.2 98 30.4 103 " />
+                        <polygon clip-path="url(#SVGID_4_)" fill="#C1CAD4" points="23 103 24 103 38.7 95.3 32.9 124.2 23 123.1 13.1 124.2 7.3 95.3 22 103 " />
+                        <polygon clip-path="url(#SVGID_4_)" fill="#26C281" points="20.5 112 25.5 112 29.5 124 16.5 124 " />
+                        <polygon clip-path="url(#SVGID_4_)" fill="#57dea6" points="12.5 103 33.5 103 25.5 112 20.5 112 " />
+                        <path clip-path="url(#SVGID_4_)" d="M38.5 93l-14.4 10 10.8 11L39 94 38.5 93zM7.5 93l14.4 10 -10.8 11L7 94 7.5 93z" fill="#FFFFFF" />
+                    </g>
+                    <path d="M23 97c-1.5 0-3.5-0.3-4.8-0.9 -1.6-0.7-7.2-4.6-9.1-6.3 -2.5-2.3-3.8-5.1-4.2-10S3 57.5 3 53.5C3 47.8 8.1 39 23 39l0 0 0 0 0 0 0 0C37.9 39 43 47.8 43 53.5c0 4-1.5 21.5-1.9 26.4s-1.6 7.7-4.2 10c-1.9 1.7-7.6 5.6-9.1 6.3C26.5 96.7 24.5 97 23 97L23 97z" fill="#F2CEA5" />
+                    <path d="M30 83l-14 0c-0.4 0-0.6 0.4-0.4 0.8 1.3 2.3 3.7 3.5 6.7 3.7 3.1 0.2 6.5-1.3 8.1-3.7C30.6 83.5 30.4 83 30 83z" fill="#A3705F" />
+                    <circle cx="32" cy="68" fill="#006ad1" r="2" />
+                    <circle cx="14" cy="68" fill="#006ad1" r="2" />
+                    <path d="M8 65c0 0 1.1-3 6.1-3 3.4 0 5.4 1.5 6.4 3" fill="none" stroke="#CC9872" stroke-width="2" />
+                    <path d="M38.1 65c0 0-1.1-3-6.1-3 -4.8 0-7 3-7 5 0 1.9 0 9 0 9" fill="none" stroke="#BB8660" stroke-width="2" />
+                    <path d="M41.8 71.2c0 0 0.8-6.3 3.7-7.2 0.4-1.8 1.5-7 1.5-9.9s-0.3-5.7-1.9-8.1c-1.8-2.6-5.6-4.1-7.6-4.1 -2.3 1.4-7.7 4.6-9.4 6.5 -0.9 1 0.4 1.8 0.4 1.8s1.2-0.5 1.7-0.6c2.5-0.7 8-1.2 9.7 1.3C42 53.9 42 62.7 42 64 42 65.2 41.8 71.2 41.8 71.2z" fill="#D98C21" />
+                    <path d="M0.5 64c2.9 1 3.7 7.2 3.7 7.2S4 65.2 4 64c0-1.6 0.2-9.1 3.4-12.7 3.6-4 8.4-5.3 11.1-3.5 1.4 0.9 6.1 5.5 11.1 1.7 3-2.3 8.5-7.5 8.5-7.5s-2.9-8.9-16.1-7.9c-5.6 0.5-11.8-0.9-11.8-0.9s-0.1 2.5 0.9 3.8C2.8 39.4 0.1 45.4-0.7 50c-0.2 0.9-0.3 1.8-0.3 2.7 0 0.5 0 1 0 1.4C-1 57 0.1 62.1 0.5 64z" fill="#E6A422" />
+                </svg>
+            </div>
+            <p class="about-me-description">
+                Nazywam się Tomasz Kondraciuk, jestem studentem informatyki na Uniwersytecie Jagiellońskim. Od ponad roku dzielnie rozwijam swoje umiejętności jako Front-End Developer. Moim pragnieniem jest znalezienie pracy, która pozwoli mi się w pełni realizować, by być jeszcze lepszym. Liczę, że ktoś mną odpowiednio pokieruje, a ja ze swojej strony obiecuję, że dam z siebie wszystko!
+            </p>
+            <p class="about-me-description">
+                Obecnie kładę główny nacisk na HTML5, CSS3 oraz JavaScript. W projektach korzystałem również z jQuery. Planuję poznać React.js oraz TypeScript'a. Staram się by mój kod był semantycznie poprawny, a prace były Mobile-Friendly. 
+            </p>
+            <div class="scroll">
+                <a href="#skills">
+                    <svg class="scroll-button" xmlns="http://www.w3.org/2000/svg" height="512" version="1.1" viewBox="0 0 512 512" width="512" xml:space="preserve">
+                        <path d="M98.9 184.7l1.8 2.1 136 156.5c4.6 5.3 11.5 8.6 19.2 8.6 7.7 0 14.6-3.4 19.2-8.6L411 187.1l2.3-2.6c1.7-2.5 2.7-5.5 2.7-8.7 0-8.7-7.4-15.8-16.6-15.8v0H112.6v0c-9.2 0-16.6 7.1-16.6 15.8C96 179.1 97.1 182.2 98.9 184.7z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div id="skills">
+            <h1>UMIEJĘTNOŚCI</h1>
+            <div class="skills-bar"></div>
+            <p class="skills-intro">Coraz lepiej mi idzie z:</p>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>RWD</li>
+                <li>Mobile First Design</li>
+            </ul>
+            <div class="scroll">
+                <a href="#portfolio">
+                    <svg class="scroll-button" xmlns="http://www.w3.org/2000/svg" height="512" version="1.1" viewBox="0 0 512 512" width="512" xml:space="preserve">
+                        <path d="M98.9 184.7l1.8 2.1 136 156.5c4.6 5.3 11.5 8.6 19.2 8.6 7.7 0 14.6-3.4 19.2-8.6L411 187.1l2.3-2.6c1.7-2.5 2.7-5.5 2.7-8.7 0-8.7-7.4-15.8-16.6-15.8v0H112.6v0c-9.2 0-16.6 7.1-16.6 15.8C96 179.1 97.1 182.2 98.9 184.7z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div id="portfolio">
+            <h1 class="portfolio-header">PROJEKTY</h1>
+            <div class="portfolio-bar"></div>
+            <div class="portfolio-project">
+                <a href="http://mm.tomaszkondraciuk.pl"><img class="project-1" src="gfx/projekt1.jpg" alt="Mastermind"></a>
+                <a href="#portfolio"><img class="project-2" src="gfx/placeholder1.jpg" alt="project-2"></a>
+                <a href="#portfolio"><img class="project-3" src="gfx/placeholder1.jpg" alt="project-3"></a>
+            </div>
+            <div class="scroll" id="last-scroll">
+                <a href="#contact">
+                    <svg class="scroll-button" id="last-scroll-button" xmlns="http://www.w3.org/2000/svg" height="512" version="1.1" viewBox="0 0 512 512" width="512" xml:space="preserve">
+                        <path d="M98.9 184.7l1.8 2.1 136 156.5c4.6 5.3 11.5 8.6 19.2 8.6 7.7 0 14.6-3.4 19.2-8.6L411 187.1l2.3-2.6c1.7-2.5 2.7-5.5 2.7-8.7 0-8.7-7.4-15.8-16.6-15.8v0H112.6v0c-9.2 0-16.6 7.1-16.6 15.8C96 179.1 97.1 182.2 98.9 184.7z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div id="contact">
+            <h1>KONTAKT</h1>
+            <div class="contact-bar"></div>
+            <p class="contact-description">Jesteś zainteresowany współpracą lub masz jakieś pytanie? Skorzystaj z formularza.</p>
+            <form action="form/send.php" method="post" id="contactform">
+                <fieldset id="fieldset">
+                    <div id="name-email-field">
+                        <input id="name-field" type="text" name="contact_name" placeholder="Imię i nazwisko" required="required" />
+                        <input id="email-field" type="email" name="contact_email" placeholder="Adres e-mail" required="required" />
+                    </div>
+                    <textarea id="msg-field" name="contact_body" placeholder="Treść wiadomości" required="required"></textarea>
+                    <div id="validation-field">
+                        Podaj wynik: <span class="form_check_1"></span> &times; <span class="form_check_2"></span> =
+                        <input id="value-field" type="text" name="contact_check" maxlength="2" tabindex="4" />
+                    </div>
+                    <input id="submit-button" type="submit" value="Wyślij" />
+                    <input type="hidden" name="contact_check_data" value="" />
+                </fieldset>
+            </form>
+        </div>
+        <div class="email-box">
+            <a href="mailto:kontakt@tomaszkondraciuk.pl">
+                <svg class="ape-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 96.3 100.2" xml:space="preserve">
+                    <path d="M93.1 24.5c-2.1-4.9-5.1-9.2-9-12.8 -3.9-3.6-8.6-6.5-14.1-8.5C64.5 1 58.3 0 51.5 0c-4.9 0-9.6 0.6-14.1 1.8C33 3.1 28.9 4.8 25.1 7.1c-3.8 2.3-7.3 5-10.4 8.2 -3.1 3.2-5.7 6.8-7.9 10.7 -2.2 4-3.8 8.2-5 12.8C0.6 43.5 0 48.3 0 53.3c0 7.3 1.2 13.9 3.6 19.7 2.4 5.8 5.9 10.7 10.4 14.8 4.5 4 10.1 7.1 16.6 9.3 6.5 2.1 13.9 3.2 22.2 3.2 4.7 0 9-0.4 13-1.1 3.9-0.7 7.8-1.9 11.6-3.5l-3.1-7.4c-3 1.3-6.3 2.3-9.9 2.9 -3.5 0.7-7.5 1-11.7 1 -6.9 0-13.1-0.9-18.6-2.6 -5.5-1.7-10.1-4.3-13.9-7.6 -3.8-3.3-6.7-7.4-8.7-12.2 -2-4.8-3-10.3-3-16.5 0-6.3 1.1-12.2 3.2-17.7 2.1-5.5 5.1-10.3 8.9-14.3 3.8-4.1 8.4-7.3 13.6-9.6 5.3-2.3 11.1-3.5 17.4-3.5 5.2 0 10.1 0.8 14.5 2.4 4.5 1.6 8.3 3.9 11.5 6.8 3.2 2.9 5.7 6.3 7.5 10.2 1.8 4 2.7 8.3 2.7 12.9 0 4.5-0.5 8.5-1.6 12.1 -1.1 3.6-2.5 6.6-4.3 9 -1.8 2.5-3.9 4.3-6.3 5.7 -2.4 1.3-5 2-7.7 2 -1.2 0-2-0.3-2.5-1 -0.5-0.6-0.8-1.6-0.8-2.7 0-0.9 0.1-2 0.4-3.4 0.3-1.3 0.6-3 0.9-4.8l7.8-34.9h-9.6l-1.1 5.2c-1.9-2.1-4.1-3.6-6.6-4.7 -2.5-1.1-5.3-1.6-8.6-1.6 -3.7 0-7.3 0.9-10.6 2.7 -3.3 1.8-6.3 4.2-8.8 7.4 -2.5 3.1-4.5 6.8-6 11.1 -1.5 4.3-2.2 8.9-2.2 13.9 0 3.4 0.5 6.4 1.4 9 0.9 2.6 2.2 4.9 3.9 6.7 1.7 1.8 3.6 3.2 6 4.2 2.3 0.9 4.8 1.4 7.6 1.4 3.2 0 6.3-0.7 9.2-2.2 2.9-1.5 5.5-3.6 7.8-6.3 0.1 1.2 0.5 2.3 1 3.4 0.6 1 1.3 2 2.3 2.7 0.9 0.8 2 1.4 3.3 1.8 1.2 0.4 2.6 0.7 4.1 0.7 4.3 0 8.2-0.8 11.9-2.5 3.6-1.7 6.8-4.1 9.5-7.3 2.7-3.2 4.7-7.1 6.2-11.8 1.5-4.6 2.2-9.9 2.2-15.8C96.3 34.7 95.3 29.4 93.1 24.5zM56.8 53.3c-0.6 2.5-1.4 4.7-2.4 6.6 -1 2-2.3 3.6-3.7 5 -1.4 1.4-2.9 2.5-4.6 3.2 -1.7 0.7-3.4 1.1-5.3 1.1 -6.9 0-10.4-4.4-10.4-13.1 0-3.6 0.5-7 1.4-10.2 0.9-3.2 2.2-6 3.8-8.3 1.6-2.4 3.4-4.3 5.5-5.7 2.1-1.4 4.2-2.1 6.5-2.1 3.1 0 5.7 0.6 7.8 1.7 2.1 1.1 3.9 2.5 5.3 4.1L56.8 53.3z" />
+                </svg>
+                <p>kontakt@tomaszkondraciuk.pl</p>
+            </a>
+        </div>
+    </main>
+    <footer id="page-footer">
+            <svg class="push-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 257.8 257.8" xml:space="preserve" width="512" height="512">
+                <path d="M62.3 89.3c1.4 0 2.7-0.5 3.9-1.4 2.5-2.1 2.9-5.9 0.7-8.5C60.6 72.1 57.2 62.7 57.2 53c0-22.6 18.4-41 41-41s41 18.4 41 41c0 6.3-1.4 12.4-4.1 18 -1.5 3-0.2 6.6 2.8 8 3 1.5 6.6 0.2 8-2.8 3.6-7.3 5.4-15.1 5.4-23.2 0-29.2-23.8-53-53-53s-53 23.8-53 53c0 12.5 4.4 24.6 12.5 34.2C58.9 88.6 60.6 89.3 62.3 89.3zM211.1 141.8c-3.9-22.9-20.3-26-27.4-26.2 -2-0.1-3.8-1.1-4.9-2.8 -5.4-8.5-12.6-10.7-18.8-10.7 -2.8 0-5.4 0.5-7.5 1 -0.6 0.2-1.2 0.2-1.8 0.2 -2.2 0-4.3-1-5.6-2.8 -5.3-7.3-12.2-9.3-18.1-9.3 -1.6 0-3.1 0.1-4.5 0.4 -0.4 0.1-0.7 0.1-1.1 0.1 -3.8 0-7-3.1-7-7l0-42.3c0-10.9-8.2-16.4-16.4-16.4 -8.2 0-16.4 5.5-16.4 16.4 0 18.4 0.1 73.5 0.1 90.1 0 2.8-1.7 5.3-4.3 6.4 -32.5 13.6 7.6 74.6 14.8 85.1 0.7 1 1.1 2.2 1.2 3.4l1.8 23.7c0.3 3.7 3.3 6.7 7 6.7 0 0 0 0 0 0l78.6-0.3c3.5 0 6.5-2.7 6.9-6.2l3.2-24.5c0.1-1 0.5-2.1 1.1-2.9C213.1 191.4 214.7 163 211.1 141.8z" fill="#363132" />
+            </svg>
+        <div class="footer-logo">
+            <a href="#top-of-body">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 41" preserveAspectRatio="xMidYMid meet" class="page-logo">
+                    <g transform="translate(0.000000,41.000000) scale(0.100000,-0.100000)" stroke="none" fill="#363132">
+                        <path d="M876 385c-24-24-32-44-47-108-9-43-18-61-33-67-30-11-54-41-69-86-8-23-22-40-32-43-16-3-18 3-12 63 5 55 4 68-9 73-18 7-37-10-58-52l-16-30 0 43c0 36-3 43-17 40-10-2-19-13-21-25l-3-22-37 26c-29 19-45 24-76 20-60-8-81-36-81-107 1-61-9-76-40-63-13 4-75 110-75 127 0 2 17 7 38 11 54 10 80 30 93 73 16 54 9 86-18 90-20 3-23-1-23-33 0-50-44-95-93-95l-34 0 5 75 5 75-39 0c-45 0-111-28-136-57-10-11-21-34-24-52-7-31-6-32 22-29 22 2 30 10 36 35 9 33 50 73 75 73 17 0 14-43-9-145-20-90-44-123-101-134-47-10-42-35 8-39 57-4 96 24 127 89l25 54 36-71c19-38 42-76 51-83 19-16 62-11 131 16 61 23 89 67 79 123l-6 35 26-24c19-18 26-35 28-75 4-67 24-67 60-1l28 50 0-40c1-61 11-72 54-57 28 10 39 10 56 0 17-11 25-10 52 5 28 16 32 16 48 2 21-19 40-19 68 1 22 15 24 15 37-2 18-25 30-12 53 56l19 54 11-32c8-24 17-32 34-32 14 0 27-9 33-22 17-37 40-44 79-26 29 14 35 15 40 2 7-18 36-18 62 0 17 12 22 12 39 0 25-19 54-18 90 4 29 18 30 18 46-2 15-18 20-19 55-8 25 7 40 8 42 2 6-16 38-11 63 9 22 18 23 18 38-1 14-17 20-17 50-7 27 9 36 9 39 1 8-26 32-9 71 54 23 37 44 64 48 61 3-3-4-18-16-33-30-39-28-82 5-90 34-9 94 19 94 44 0 30-12 34-37 10-39-36-46-9-12 44 54 83 10 122-57 51l-35-38 25 45c60 112 70 210 21 210-51 0-90-79-102-205-8-88-16-111-43-118-21-5-21-4-15 69 7 70 6 74-13 74-15 0-22-9-27-32-17-83-26-108-42-108-13 0-14 9-8 57 4 31 9 62 12 70 3 8-2 13-15 13-26 0-30-6-42-71-11-57-24-79-48-79-12 0-14 10-9 53 4 28 9 63 13 75 6 21 4 23-17 20-20-2-26-12-34-52-12-54-51-96-90-96-31 0-42 38-25 80 15 37 40 40 40 5 0-27 9-32 28-13 18 18 14 56-7 68-51 27-104-10-118-83-6-29-14-43-27-45-17-4-18 1-11 57 7 60 7 61-21 72-38 14-87-9-109-51-23-45-50-37-50 14 0 50-21 58-52 20l-23-29 0 28c0 50-28 31-41-29-8-34-20-61-33-70-54-37-61 4-17 104 35 80 44 127 33 167-10 35-41 44-66 20zm19-135c-9-28-19-50-22-50-10 0 6 120 19 143 13 21 13 21 16-11 2-18-4-55-13-82zm955 102c0-4-13-46-30-92l-30-85 6 55c7 60 31 130 45 130 5 0 9-4 9-8zm-1382-203c4-38-14-79-37-79-23 0-33 23-25 58 14 56 56 71 62 21zm352-8c0-23-7-46-16-55-33-33-46 12-19 64 21 41 35 37 35-9zm390 19c0-34-28-90-44-90-22 0-20 38 4 78 22 36 40 42 40 12zM1494 296c-9-23 3-46 23-46 28 0 45 16 41 36-4 25-56 32-64 10z" />
+                    </g>
+                </svg>
+            </a>
+        </div>
+        <p class="copyright">&copy; 2017</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="form/form.js"></script>
+
+    <script>
+        //START #top-of-body
+        sr.reveal('.dev-title', {
+            origin: 'bottom',
+            delay: 500,
+            duration: 500,
+            distance: '100px',
+        });
+        sr.reveal('.author', {
+            origin: 'top',
+            delay: 1200,
+            duration: 500,
+            distance: '100px',
+        });
+        //        sr.reveal('.page-nav', { origin: 'right', delay: 500, duration: 500,  });
+        sr.reveal('.page-header', {
+            origin: 'top',
+            delay: 500,
+            duration: 500,
+        });
+        sr.reveal('#title-page .scroll', {
+            origin: 'top',
+            delay: 1200,
+            duration: 500,
+            scale: 0.5
+        });
+        //END #top-of-body
+
+        //START #about-me
+        //sr.reveal('.about-me-header', { origin: 'left', delay: 500, duration: 500, distance: '200px',  });
+        //sr.reveal('.about-me-bar', { origin: 'left', delay: 600, duration: 500, distance: '200px',    });
+        sr.reveal('.about-me-icon', {
+            origin: 'left',
+            delay: 500,
+            duration: 500,
+            distance: '200px',
+        });
+        sr.reveal('.about-me-description', {
+            origin: 'left',
+            delay: 600,
+            duration: 500,
+            distance: '200px',
+        });
+        //sr.reveal('#about-me .scroll-button', { origin: 'bottom', delay: 500, duration: 500, distance: '200px', });
+        //END #about-me
+
+        //START #skills
+        sr.reveal('.skills-intro', {
+            origin: 'top',
+            delay: 500,
+            duration: 500,
+        });
+        sr.reveal('.skills-list', {
+            delay: 500,
+            scale: 1.0,
+            distance: '20px',
+        });
+        //STOP #skills
+
+        //START #portfolio
+        sr.reveal('.portfolio-project a', {
+            origin: 'left',
+            delay: 500,
+            distance: '200px',
+        });
+        //sr.reveal('#portfolio', { origin: 'left', delay: 500,  distance: '100vw', mobile: false,    });
+        //STOP #portfolio
+
+        //START #footer
+        sr.reveal('#page-footer a, .footer-logo, .copyright', {});
+        //STOP #footer
+    </script>
+
+
+</body>
+
+</html>
